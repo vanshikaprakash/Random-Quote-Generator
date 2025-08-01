@@ -18,8 +18,10 @@
 }
 
 .card {
-  background: whitesmoke;
-  width: 40%;
+  position: relative;
+  background: rgb(213, 218, 223);
+  width: fit-content;
+  max-width: 80%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -48,7 +50,7 @@
   height: 50px;
   width: 150px;
   opacity: 1;
-  background-color: #cca583;
+  background-color: #c9b29e;
   border: 1px solid rgba(74, 31, 4, 0.6);
 }
   
@@ -106,7 +108,30 @@
 
 @media only screen and (max-width: 600px) {
   .card {
-      width: 80%;
-      height: 30%;
+    width: fit-content;
+    max-width: 90%;
+    height: auto;
   }
+}
+
+.copy-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  cursor: pointer;
+  color: #6d4c3c;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+
+.copy-icon:hover {
+  color: #4a2d24;
+}
+
+.copied-msg {
+  font-size: 0.75rem;
+  color: green;
+  transition: opacity 0.3s ease-in-out;
 }
