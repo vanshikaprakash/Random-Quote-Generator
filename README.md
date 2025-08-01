@@ -37,7 +37,7 @@ and boom, free therapy.
 
 ## 🚢 Deployed?
 yes, on vercel. because why not.
-🔗https://advice-exe.vercel.app/
+🔗https://adviceexe.vercel.app/
 
 ## 💡 Features
  #one click = new advice
