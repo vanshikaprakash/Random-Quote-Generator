@@ -1,4 +1,4 @@
-<h1>Advice.exe</h1>
+<h1>advice.exe</h1>
 
 A bite-sized web app that throws advice at you, mostly unhinged, occasionally useful.
 
@@ -37,11 +37,13 @@ and boom — free therapy.
 
 ## 🚢 Deployed?
 yes, on vercel. because why not.
-🔗 your-vercel-url.vercel.app
+🔗adviceexe.vercel.app
 
 ## 💡 Features
  #one click = new advice
+ 
  #copy to clipboard (use it as your next IG caption)
+ 
  #fully responsive. read advice even while doomscrolling in bed.
 
 
