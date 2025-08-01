@@ -1,4 +1,4 @@
-<h1>advice.exe</h1>
+## [Advice.exe](https://adviceexe.vercel.app)
 
 A bite-sized web app that throws advice at you, mostly unhinged, occasionally useful.
 
@@ -26,18 +26,18 @@ copy-paste it. pretend you thought of it.
 Step 1: lift your right leg, nvm just kidding
 
 ```bash
-git clone https://github.com/your-username/advice.exe.git
+git clone https://github.com/vanshikaprakash/Random-Quote-Generator.git
 cd advice.exe
 npm install
 npm start
 it’ll spin up on http://localhost:3000
-and boom — free therapy.
+and boom, free therapy.
 ```
 ---
 
 ## 🚢 Deployed?
 yes, on vercel. because why not.
-🔗adviceexe.vercel.app
+🔗https://advice-exe.vercel.app
 
 ## 💡 Features
  #one click = new advice
