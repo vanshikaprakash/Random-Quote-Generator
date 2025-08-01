@@ -25,11 +25,14 @@ class App extends React.Component {
         return (
             <div className="app">
                 <div className="card">
-                    <h1 className="heading"> {advice} </h1>
+                    <h1 className="heading">{advice}</h1>
                 </div>
-                <button onClick={this.fetchAdvice}>Get Advice</button>
+                <button className="button" onClick={this.fetchAdvice}>
+                    <span>Get Advice</span>
+                </button>
             </div>
         );
+
     }
 }
 export default App;
